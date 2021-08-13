@@ -9,34 +9,91 @@
 
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
- <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 
 <body>
 
+<center>
   <header>
     <h1>Resume</h1>
   </header>
-
-  <main class="container">
+ 
     <section id="main-bio">
       <section id="figure">
         <h2 id="bio-name">Meet K Kaur Sahni</h2>
-        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-      </section>
-      <p>Metrics-Driven Quality Leader with 12 years of diversified experience. <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+        
+        <table border = 1 style="width: 70%;">
+           
+            
+            <tr>        
+            <td colspan="2"><h2 align = center>Highlights</h2>
+               <p style="text-indent: 40px;">&#9733;Metrics-Driven Quality Leader with 12 years of diversified experience
+                <p style="text-indent: 40px;">&#9733;Pursuing Data Science & Analytics at Rutgers
+                <p style="text-indent: 40px;">&#9733;Masters in Sofware Engineering 
+                <p style="text-indent: 40px;">&#9733;Done Research at Thapar University (Published 2 Research papers)
+                <p style="text-indent: 40px;">&#9733;Influencer</p></td>
+
+               <td> 
+                <div class="image-container">
+                   <img id="bio-image" src="Images/Bio-Image.png" alt="Meet K" style="justify-content: center;width:250px;height:300px;">
+                </div>
+                </td>
+                </tr>          
+        
+            <tr>   <td colspan="2">
+                <h2 style="text-align: center;">Education</h2>
+                <ul>
+                    <li>Pursuing Data Science & Analytics at Rutgers University</li>
+                    <li>Master of Engineering (Software Engineering) with CGPA of 8.75</li>
+                    <li>Bachelor of Technology (Computer Science & Engineering)</li>
+                  </ul>
+            </td>
+                
+                <td style="padding: 15px;"><aside id="contact-info">
+                <h2 style="text-align: center;">Contact Info</h2>
+                <ul >
+                  <li><strong>Email:</strong> <a href="#">meetkamal@gmail.com</a></li>
+                  <li><strong>Github:</strong> <a href="https://github.com/meetk5">https://github.com/meetk5</a></li>
+                  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/meetk/">https://www.linkedin.com/in/meetk/</a></li>
+                </ul>
+              </aside></td>
+              
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <h2 style="text-align: center;">Accomplishments</h2>
+                    <ul>
+                        <li>Recognized Star Performer by CIGNA while working with them in IBM </li>
+                        <li>Certified Software Test Manager</li>
+                        <li>Done certifications like OCA, SOA, Rational, AIX(Basic)</li>
+                        <li>National Talent Search Examination scholarship holder</li>
+                        <li>Published research papers on Parallel Approach for <br>
+                            VLSI Test Generation <br>
+                            & Applying Fuzzy Logic in  Software Development
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h2 style="text-align: center;">Tools & Languages</h2>
+
+                    <ul>
+                        <li>Python, Pandas, Matplotlib, SQLAlchemy</li>
+                        <li>SQL, Relational DBMS</li>
+                        <li>Excel, VBA</li>
+                    </ul>
+                   
+                    <ul>
+                            <li>HTML, CSS, Bootstrap</li>
+                            <li>HP ALM, HP Quality Center</li>
+                            <li>Parasoft SOATest 9.0</li>
+                            <li>Unit, Functional, Integration, System and UA Testing</li>
+                    </ul>  
+                </td>
+            </tr>
+        </table>
     </section>
-
-    <aside id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">meetkamal@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">meetk5</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </aside>
   </main>
-
 </body>
-
 </html>
